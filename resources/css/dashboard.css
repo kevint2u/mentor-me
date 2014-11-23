@@ -1,0 +1,60 @@
+body {
+	font-family: GothamThin, Helvetica, Verdana, Sans-Serif;
+	font-size: 100px;
+	background-color: #fff;
+}
+
+
+div.navbar{
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	border-radius: 0px;
+	opacity:0.95;
+	z-index: 0;
+	font-size: 50px;
+	line-height: 100px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+div.sidebar{
+	font-size: 35px;
+	padding-top: 100px;
+	height: 1000px;
+	background-color: #19D175;
+	width: 200px;
+	border-width: 2px;
+	border-color: red;
+	float: left;
+	z-index: -1;
+	position: fixed;
+	background-position: 0px 100px;
+	
+
+	
+
+}
+
+div.content{
+	font-size: 15px;
+	padding-top: 100px;
+	display: inline-block;
+	text-align: center;
+	padding-left: 215px;
+	height: 1000px;
+
+
+
+
+
+}
