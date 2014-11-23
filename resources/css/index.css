@@ -1,16 +1,21 @@
 body {
 	font-family: GothamThin, Helvetica, Verdana, Sans-Serif;
 	font-size: 100px;
+	background-color: #fff;
 }
 
 div.navbar{
-	background-color: #000;
-	position: absolute;
+	background-color: #fff;
+	position: fixed;
 	top:0;
 	left: 0;
 	right: 0;
-	height: 75px;
+	height: 100px;
 	border-radius: 0px;
+	opacity:0.95;
+
+	font-size: 50px;
+	line-height: 100px;
 
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -21,14 +26,35 @@ div.navbar{
 }
 
 div.content{
-	margin-top: 75px;
+	margin-top: 100px;
+}
+
+div.welcome-slide{
+	height: 500px;	
+	background-color: #19D175;
+}
+
+div.about-slide{
+	height: 600px;
+	background-color: #bbb;
+}
+
+div.students-slide{
+	height: 500px;	
+	background-color: #ccc;
+}
+
+div.mentors-slide{
+	height: 500px;	
+	background-color: #ddd;
 }
 
 div.footer{
 	position: absolute;
+	margin-top: 1500px;
 	top: 100%;
 	left: 0;
 	right: 0;
-	height: 250px;
-	background-color: #000;
+	height: 300px;
+	background-color: #fff;
 }
