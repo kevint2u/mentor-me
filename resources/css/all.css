@@ -16,3 +16,13 @@
   font-weight: 100;
   src: local('Raleway Thin'), local('Raleway-Thin'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/RJMlAoFXXQEzZoMSUteGWLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
+
+
+div.nav-link a {
+	text-decoration: none;
+	color: black;
+}
+
+div.nav-link a:hover{
+	opacity: 0.7;
+}

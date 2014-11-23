@@ -25,8 +25,21 @@ div.navbar{
 	user-select: none;
 }
 
+div.navbar-right{
+	width:50%;
+	float:right;
+	font-size: 30px;
+}
+
+div.nav-link{
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 div.content{
 	margin-top: 100px;
+	text-align: center;
 }
 
 div.welcome-slide{
