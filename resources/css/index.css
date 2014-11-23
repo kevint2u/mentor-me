@@ -2,3 +2,33 @@ body {
 	font-family: GothamThin, Helvetica, Verdana, Sans-Serif;
 	font-size: 100px;
 }
+
+div.navbar{
+	background-color: #000;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 75px;
+	border-radius: 0px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.content{
+	margin-top: 75px;
+}
+
+div.footer{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	height: 250px;
+	background-color: #000;
+}
